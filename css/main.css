@@ -1,6 +1,6 @@
 html {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../img/abstract-stripes.jpg") no-repeat center center fixed;
+        url("../img/distant-mountains.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,64 +13,50 @@ body {
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     border-top: solid .5rem #f56723;
-
 }
 
 .container {
-    position: absolute;
-    left: 0;
-    padding-top: 100px;
-    width: 100%;
+    padding: 40px 20px 20px;
     text-align: center;
-    margin-bottom: 30px;
 }
 
-#portrait {
-    border: 2px solid white;
-    border-radius: 500px;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
+.header {
+    padding-top: 40px;
 }
 
-.name {
-    margin: 0;
+.page-title {
+    margin: 10px 0px;
     font-size: 58px;
 }
 
-.about-me {
-    margin: auto;
-    width: 90%;
-}
-
 a {
-	font-weight: bold;
-	color: white;
+    font-weight: bold;
+    color: white;
 }
 
 a:hover {
     color: #f56723;
 }
 
-.nav {
-	margin: 0;
+/* fade in animation: via opacity and animation delays */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-.nav ul {
-	padding: 10px 0px;
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
 }
 
-.nav li {
-	display: inline;
-	padding: 0px 10px;
+.fade-in-t2 {
+    animation-delay: 0.5s; 
 }
 
-.header {
-    padding: 0px 30px 30px 30px;
-}
-
-.projects > * {
-    margin: 0;
-    display: block;
-    padding: 0px 30px 0px 30px;
-    text-align: left;
+.fade-in-t3 {
+    animation-delay: 1s;
 }
