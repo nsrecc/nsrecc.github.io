@@ -5,6 +5,14 @@
   -moz-border-radius: 500px;
 }
 
+.about-me {
+  margin: 28px 0px;
+}
+
+.about-me p {
+  margin: 0px;
+}
+
 .nav ul {
   padding: 10px 0px;
 }
