@@ -38,6 +38,18 @@ a:hover {
   color: #f56723;
 }
 
+hide elements for all devices except screen readers, for accessibility
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 /* fade in animation: via opacity and animation delays */
 @keyframes fadeIn {
   0% {
