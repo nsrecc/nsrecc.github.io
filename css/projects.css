@@ -1,5 +1,6 @@
 .breadcrumb {
   text-align: left;
+  font-size: 1.75em;
 }
 
 .bare-anchor {
@@ -11,14 +12,15 @@
 }
 
 .projects {
-  margin: 40px 0px;
+  margin: 2.5rem 0;
   text-align: left;
+  font-size: 1.75em;
 }
 
 .projects * {
-  margin: 10px 0px;
+  margin: 0.5rem 0;
 }
 
 .project:not(:first-child) {
-  margin-top: 36px;
+  margin-top: 2.25rem;
 }

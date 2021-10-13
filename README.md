@@ -1,7 +1,9 @@
 # https://www.noelrecchia.com
-Made from scratch, the source code that powers my personal website.
+
+Made from scratch, the code that powers my personal website.
 
 ## Built With
+
 * HTML5
 * CSS
 * [Bootstrap](https://getbootstrap.com/) - Front-end library
@@ -10,7 +12,9 @@ Made from scratch, the source code that powers my personal website.
 * [GitHub Pages](https://pages.github.com/) - Website hosting
 
 ## Author
-* Noel Recchia
+
+* Noel Recchia ([@nsrecc](https://github.com/nsrecc))
 
 ## License
-This project is licensed under the [MIT license](https://github.com/nsrecc/nsrecc.github.io/blob/master/LICENSE).
+
+This project is licensed under the [MIT License](https://github.com/nsrecc/nsrecc.github.io/blob/master/LICENSE).
