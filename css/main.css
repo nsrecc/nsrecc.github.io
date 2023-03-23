@@ -28,6 +28,11 @@ body {
   font-size: 3.75em;
 }
 
+.sub-title {
+  margin: 0.5rem 0;
+  font-size: 2em;
+}
+
 a {
   font-weight: bold;
   color: white;
@@ -37,7 +42,7 @@ a:hover {
   color: #f56723;
 }
 
-hide elements for all devices except screen readers, for accessibility
+/* hide elements for all devices except screen readers, for accessibility */
 .sr-only {
   position: absolute;
   width: 1px;
